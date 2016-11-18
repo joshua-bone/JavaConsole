@@ -8,6 +8,7 @@ This repository is home to a number of Java programs that are run entirely from 
 ##### Skill Distillery Projects
 * [Basic Combat](BasicCombat)
 * [Blackjack] (BlackjackProject)
+* [Caesar's Cipher] (CaesersCipher)
 
 ##### CS Self Study
 * [Binary Search Tree](BinarySearchTree)
