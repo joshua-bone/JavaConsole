@@ -9,6 +9,7 @@ This repository is home to a number of text-based Java programs that are run ent
 * [Basic Combat](BasicCombat)
 * [Blackjack] (BlackjackProject)
 * [Caesar's Cipher] (CaesersCipher)
+* [War Visualization] (WarVisualization)
 
 ##### CS Self Study
 * [Binary Search Tree](BinarySearchTree)
