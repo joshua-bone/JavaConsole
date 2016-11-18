@@ -17,3 +17,27 @@ The player begins the game with a given amount of money. Each round the player's
 
 ##### Notes
 Begin the game by running the BlackjackConsole class.
+
+##### Sample Output
+```
+***You are playing Blackjack!***
+You have $100
+
+Player: [3♤|6♤]
+Dealer: [Q♧|??]
+
+Player: [3♤|6♤] 9
+(H)it, (S)tand, or (Q)uit?
+h
+Player: [3♤|6♤|7♧] 16
+(H)it, (S)tand, or (Q)uit?
+h
+Player: [3♤|6♤|7♧|2♢] 18
+(H)it, (S)tand, or (Q)uit?
+s
+Player: [3♤|6♤|7♧|2♢] 18
+Dealer: [Q♧|5♤] 15
+Dealer (FINAL): [Q♧|5♤|K♢] 25
+Dealer busts.
+Press Enter to Continue
+```
