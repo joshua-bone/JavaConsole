@@ -18,34 +18,6 @@ public class Card {
 	private final byte rank; // 0 - 12;
 	private final byte suit; // 0 - 3;
 	private int value; // can be set by the game controller as needed
-	private Image front;
-	private Image back;
-//	private boolean isFaceDown; //track if card is visible or not
-
-	public JLabel front(){
-		return new JLabel(new ImageIcon(this.getFront()));
-	}
-	
-	public JLabel back(){
-		return new JLabel(new ImageIcon(this.getBack()));
-	}
-
-	public Image getFront() {
-		return front;
-	}
-	
-
-	public void setFront(Image front) {
-		this.front = front;
-	}
-
-	public Image getBack() {
-		return back;
-	}
-
-	public void setBack(Image back) {
-		this.back = back;
-	}
 
 	// constructor
 	public Card(int rank, int suit) {
@@ -56,32 +28,7 @@ public class Card {
 												// negatives), but it will wrap
 												// around
 		this.value = rank + 2; // default value is standard face value
-		try {
-			String fileName;
-			if (this.rank <= 8){ //10 or lower
-				fileName = (this.rank + 2) + "_of_" + Card.SUITNAMES[this.suit].toLowerCase() + ".png";
-			} else if (this.rank == 12){ //ace
-				fileName = Card.CARDNAMES[this.rank].toLowerCase() + "_of_" + Card.SUITNAMES[this.suit].toLowerCase() + ".png";
-			} else {
-				fileName = Card.CARDNAMES[this.rank].toLowerCase() + "_of_" + Card.SUITNAMES[this.suit].toLowerCase() + "2.png";				
-			}
-			this.setFront(ImageIO.read(new File("PNG-cards-1.3/" + fileName)).getScaledInstance(WIDTH, HEIGHT, Image.SCALE_SMOOTH));
-			this.setBack(ImageIO.read(new File("PNG-cards-1.3/back.jpg")).getScaledInstance(WIDTH, HEIGHT, Image.SCALE_SMOOTH));
-			
-		} catch (Exception e) {
-			System.err.println(e);
-		}
-//		this.isFaceDown = true; //all cards start face down
 	}
-
-//	// setters and getters
-//	public void flip(){ //flip a card over
-//		this.isFaceDown = !this.isFaceDown;
-//	}
-//	
-//	public boolean isFaceDown(){
-//		return this.isFaceDown;
-//	}
 	
 	public byte getRank() {
 		return this.rank;

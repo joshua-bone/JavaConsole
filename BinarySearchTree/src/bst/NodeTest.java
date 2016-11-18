@@ -7,9 +7,9 @@ public class NodeTest {
 		for (int i : iList){
 			n.insert(i);
 		}
-		System.out.println(n);
-		System.out.println(n.preOrderTraversal());
-		System.out.println(n.inOrderTraversal());
-		System.out.println(n.postOrderTraversal());
+		System.out.println("Binary Tree: " + n);
+		System.out.println("PreOrder: " + n.preOrderTraversal());
+		System.out.println("InOrder: " + n.inOrderTraversal());
+		System.out.println("PostOrder: " + n.postOrderTraversal());
 	}
 }
