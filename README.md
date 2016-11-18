@@ -2,6 +2,7 @@
 ### Table of Contents
 ##### Skill Distillery Projects
 * [Basic Combat](BasicCombat)
+
 ##### CS Self Study
 * [Binary Search Tree](BinarySearchTree)
 
