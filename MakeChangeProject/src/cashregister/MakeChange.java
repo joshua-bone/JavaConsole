@@ -1,9 +1,8 @@
 package cashregister;
 
 import java.util.Scanner;
-//asdf
-public class MakeChange {
 
+public class MakeChange {
 	// array of test cases to be run if args[0]=="test"
 	public static double testArray[][] = { { 0.67, 0.50 }, { 44.27, 44.27 }, { 0.67, 1.00 }, { 0.59, 1.00 },
 			{ 3.96, 20.00 }, {5.01, 100.00}};
