@@ -1,9 +1,19 @@
-BLACKJACK PROJECT
-Skill Distillery Week 3
-Joshua Bone
-10/17/2016
+# Blackjack (Skill Distillery Project, Week 3)
+#### By Joshua Bone, 10/17/2016
 
-A simple console-based blackjack program pitting a single player against
-the dealer. Player starts with $100 and wagers a hard-coded $2 each round.
-Blackjack play is correctly simulated, however there is as yet no support
-for some of the 'extra' options such as doubling down or insurance. 
+
+
+### Overview
+This is a text-based, Object-Oriented implementation of the card game 'Blackjack' that I created during my third week of coding bootcamp at Skill Distillery.
+
+### User Story #1:
+The player is prompted to enter their name.
+
+### User Story #2:
+Cards are dealt to the dealer and player. Player is given the choice to hit, stand, or quit.
+
+### User Story #3:
+The player begins the game with a given amount of money. Each round the player's wager is subtracted, and any winnings are added to the total. The game ends if the player's total reaches $0. 
+
+##### Notes
+Begin the game by running the BlackjackConsole class.
