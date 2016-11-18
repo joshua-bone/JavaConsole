@@ -26,3 +26,38 @@ The game ends when either the player dies or else all the Orcs are dead.
 
 ##### Notes
 Begin the game by running the GameTester class.
+
+##### Sample Output
+```
+Enter your name, brave hero (or otherwise): 
+Aragorn
+And how many Orcs do you think you can handle, Aragorn?
+1
+Just one, huh? I'm guessing you're more of the 'stay-at-home' type.
+
+Make your move, Aragorn
+1. Attack Orc 1
+2. Look for Weapon
+3. Look for Armor
+2
+Aragorn went looking for weapons, but didn't find much of anything.
+Orc 1 found a Iron Armor. 
+Make your move, Aragorn
+1. Attack Orc 1
+2. Look for Weapon
+3. Look for Armor
+2
+		Aragorn found a Sword. 
+Orc 1 attacks Aragorn with a Fists for 2 damage. Aragorn has T-Shirt and takes 1 damage. Health = 497.
+Make your move, Aragorn
+1. Attack Orc 1
+2. Look for Weapon
+3. Look for Armor
+1
+Aragorn attacks Orc 1 with a Sword for 7 damage. Orc 1 has Iron Armor and takes 2 damage. Health = 109.
+Orc 1 went looking for armor, but didn't find much of anything.
+Make your move, Aragorn
+1. Attack Orc 1
+2. Look for Weapon
+3. Look for Armor
+```
