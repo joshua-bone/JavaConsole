@@ -6,6 +6,7 @@ This repository is home to a number of text-based Java programs that are run ent
 
 ### Table of Contents
 ##### Skill Distillery Projects
+* [Cash Register] (MakeChangeProject)
 * [Basic Combat](BasicCombat)
 * [Blackjack] (BlackjackProject)
 * [Caesar's Cipher] (CaesersCipher)
