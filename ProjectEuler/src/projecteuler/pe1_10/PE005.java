@@ -12,7 +12,7 @@ public class PE005 {
 	public static void main(String[] args) {
 		System.out.println("Test case (1-10):");
 		System.out.println("Calculated answer: " + findSmallestPositiveNum(10) + "\n");
-		System.out.println("Assigned case (1-20):");
+		System.out.println("Stated problem (1-20):");
 		System.out.println("Calculated answer: " + findSmallestPositiveNum(20) + "\n");
 		System.out.println("Verified answer from Project Euler: 232792560");
 
@@ -31,11 +31,19 @@ public class PE005 {
 				}
 			}
 		}
-		System.out.println("Factors: " + factors);
+		
+		StringBuilder sb = new StringBuilder("Factors: ");
+
 		int total = 1;
 		for (int key : factors.keySet()) {
+			for (int i = 0; i < factors.get(key); i++){
+				sb.append(key + "" + (char) 0x00b7);
+			}
 			total *= Math.pow(key, factors.get(key));
 		}
+		sb.replace(sb.length()-1, sb.length(), "");
+		
+		System.out.println(sb.toString());
 		return total;
 	}
 

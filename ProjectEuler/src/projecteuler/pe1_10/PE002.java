@@ -8,8 +8,7 @@ public class PE002 {
 //  four million, find the sum of the even-valued terms.
 
 	public static void main(String[] args) {
-		System.out.println("The sum of the even valued Fibonacci numbers");
-		System.out.println("whose values do not exceed 4 million is: " + findSumOfEvenValuedFibs(4_000_000));
+		System.out.println("Sum of the even valued Fibonacci numbers < 4 million: " + findSumOfEvenValuedFibs(4_000_000));
 		System.out.println("Confirmed answer from Project Euler: 4613732");
 	}
 	
