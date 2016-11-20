@@ -3,9 +3,10 @@
 
 
 
-### Overview (from the Wikipedia page)
+### Overview (from the [Project Euler] [pepage] home page )
+ 
 ```
-Project Euler (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs. The project attracts adults and students interested in mathematics and computer programming. Since its creation in 2001 by Colin Hughes, Project Euler has gained notability and popularity worldwide. It includes over 575 problems, with a new one added every weekend (except during the summer). Problems are of varying difficulty but each is solvable in less than a minute using an efficient algorithm on a modestly powered computer. Problems can be sorted on difficulty. A forum specific to each question may be viewed after the user has correctly answered the given question. As of November 2016 Project Euler has about 650,000 users from all over the world (who solved at least one problem).
+Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
 ```
 
 ##### Notes
@@ -26,3 +27,5 @@ Calculated answer: 232792560
 
 Verified answer from Project Euler: 232792560
 ```
+
+[pepage]:https://projecteuler.net/about
