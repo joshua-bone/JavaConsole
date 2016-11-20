@@ -9,7 +9,7 @@ public class PE001 {
 	public static void main(String[] args) {
 		System.out.println("Sum of multiples of 3 or 5 that are less than 10: " + sumMultiples(3, 5, 10));
 		System.out.println("Sum of multiples of 3 or 5 that are less than 1000: " + sumMultiples(3, 5, 1000));
-		System.out.println("Confirmed answer from Project Euler: 233168");
+		System.out.println("Verified answer from Project Euler: 233168");
 	}
 	
 	public static int sumMultiples(int n1, int n2, int upperLimit){

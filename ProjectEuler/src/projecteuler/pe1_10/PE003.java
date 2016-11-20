@@ -14,7 +14,7 @@ public class PE003 {
 
 		System.out.println("Prime factors of 13195: " + getPrimeFactors(n1));
 		System.out.println("Prime factors of 600851475143: " + getPrimeFactors(n2));
-		System.out.println("Confirmed answer from Project Euler: 6857");
+		System.out.println("Verified answer from Project Euler: 6857");
 	}
 	
 	public static ArrayList<Integer> getPrimeFactors(long n){
