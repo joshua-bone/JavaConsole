@@ -86,7 +86,7 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-###### Solution Output [(View Code)] (PE005.java)
+###### Solution Output [(View Code)] (PE006.java)
 ```
 First ten natural numbers: 2640
 First 100 natural numbers: 25164150
