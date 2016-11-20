@@ -35,11 +35,11 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-###### Solution Output [(View Code)] (PE002.java)
+###### Solution Output [(View Code)] (PE003.java)
 ```
-Sum of multiples of 3 or 5 that are less than 10: 23
-Sum of multiples of 3 or 5 that are less than 1000: 233168
-Confirmed answer from Project Euler: 233168
+Prime factors of 13195: [5, 7, 13, 29]
+Prime factors of 600851475143: [71, 839, 1471, 6857]
+Confirmed answer from Project Euler: 6857
 ```
 
 ### Problem 4 - Largest palindrome product
@@ -48,11 +48,12 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-###### Solution Output [(View Code)] (PE002.java)
+###### Solution Output [(View Code)] (PE004.java)
 ```
-Sum of multiples of 3 or 5 that are less than 10: 23
-Sum of multiples of 3 or 5 that are less than 1000: 233168
-Confirmed answer from Project Euler: 233168
+found: 580085 (995x583)
+found: 906609 (993x913)
+Largest palindrome found: 906609
+Verified answer from Project Euler: 906609
 ```
 
 ### Problem 5 - Smallest multiple
@@ -61,10 +62,16 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-###### Solution Output [(View Code)] (PE002.java)
+###### Solution Output [(View Code)] (PE005.java)
 ```
-Sum of multiples of 3 or 5 that are less than 10: 23
-Sum of multiples of 3 or 5 that are less than 1000: 233168
-Confirmed answer from Project Euler: 233168
+Test case (1-10):
+Factors: 2·2·2·3·3·5·7
+Calculated answer: 2520
+
+Stated problem (1-20):
+Factors: 2·2·2·2·3·3·5·7·11·13·17·19
+Calculated answer: 232792560
+
+Verified answer from Project Euler: 232792560
 ```
 
