@@ -41,7 +41,7 @@ Prime factors of 600851475143: [71, 839, 1471, 6857]
 Confirmed answer from Project Euler: 6857
 ```
 ###### Notes
-Uses the helper class [PrimeSieveInt] (/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
+Uses the helper class [PrimeSieveInt] (https://github.com/joshua-bone/JavaConsole/blob/master/ProjectEuler/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
 
 ### Problem 4 - Largest palindrome product
 ###### Problem Statement
