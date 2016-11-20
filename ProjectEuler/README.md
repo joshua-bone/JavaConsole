@@ -17,11 +17,11 @@ Each problem is contained in its own class named "PExxx.java" where xxx = 001 fo
 
 ```
 Test case (1-10):
-Factors: {2=3, 3=2, 5=1, 7=1}
+Factors: 2·2·2·3·3·5·7
 Calculated answer: 2520
 
-Assigned case (1-20):
-Factors: {2=4, 3=2, 5=1, 7=1, 11=1, 13=1, 17=1, 19=1}
+Stated problem (1-20):
+Factors: 2·2·2·2·3·3·5·7·11·13·17·19
 Calculated answer: 232792560
 
 Verified answer from Project Euler: 232792560
