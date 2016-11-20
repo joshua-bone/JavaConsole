@@ -96,3 +96,17 @@ First ten natural numbers: 2640
 First 100 natural numbers: 25164150
 Verified answer from Project Euler: 25164150
 ```
+
+### Problem 7 - 10001st prime
+###### Problem Statement
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+What is the 10,001st prime number?
+
+###### Solution Output [(View Code)] (PE007.java)
+```
+The 6th prime is: 13
+The 10001st prime is: 104743
+Verified answer from Project Euler: 104743
+```
+###### Notes
+Uses the helper class [PrimeSieveInt] (https://github.com/joshua-bone/JavaConsole/blob/master/ProjectEuler/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
