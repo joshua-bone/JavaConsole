@@ -11,10 +11,9 @@
 ##### Notes
 Each problem is contained in its own class named "PExxx.java" where xxx = 001 for the first problem, 002 for the 2nd, etc. All methods within each of these classes are static. Occasionally I have created certain "helper" classes containing reusable code for some of the more common themes (such as prime numbers). 
 
-##### Example
-###### Problem 5: 
-2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
-What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+##### Example (Solution to Problem 5)
+> 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+> What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 ```
 Test case (1-10):
 Factors: {2=3, 3=2, 5=1, 7=1}
