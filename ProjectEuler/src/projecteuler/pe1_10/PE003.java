@@ -1,4 +1,4 @@
-package projecteuler;
+package projecteuler.pe1_10;
 
 import java.util.ArrayList;
 

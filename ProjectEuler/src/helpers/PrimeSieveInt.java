@@ -10,6 +10,7 @@ public class PrimeSieveInt {
 	public PrimeSieveInt(int upperLimit){
 		sieve = new ArrayList<>();
 		primes = new ArrayList<>();
+		primes.add(2);
 		this.upperLimit = upperLimit;
 		generateSieve();
 	}

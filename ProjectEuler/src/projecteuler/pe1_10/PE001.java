@@ -1,4 +1,4 @@
-package projecteuler;
+package projecteuler.pe1_10;
 
 public class PE001 {
 //		If we list all the natural numbers below 10 that are multiples 
