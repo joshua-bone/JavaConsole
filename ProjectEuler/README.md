@@ -5,9 +5,8 @@
 
 ### Overview (from the [Project Euler] [pepage] home page )
  
-```
-Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
-```
+> Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
 
 ##### Notes
 Each problem is contained in its own class named "PExxx.java" where xxx = 001 for the first problem, 002 for the 2nd, etc. All methods within each of these classes are static. Occasionally I have created certain "helper" classes containing reusable code for some of the more common themes (such as prime numbers). 
