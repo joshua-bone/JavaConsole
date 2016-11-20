@@ -13,6 +13,7 @@ This repository is home to a number of text-based Java programs that are run ent
 * [War Visualization] (WarVisualization)
 
 ##### CS Self Study
+* [Project Euler] (ProjectEuler)
 * [Binary Search Tree](BinarySearchTree)
 
 
