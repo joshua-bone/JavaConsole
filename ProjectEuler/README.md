@@ -28,3 +28,6 @@ Verified answer from Project Euler: 232792560
 ```
 
 [pepage]:https://projecteuler.net/about
+
+### My Solutions
+* [Problems 1-10](src/projecteuler/pe1_10)
