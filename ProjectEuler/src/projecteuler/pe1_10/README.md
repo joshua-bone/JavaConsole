@@ -10,7 +10,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ```
 Sum of multiples of 3 or 5 that are less than 10: 23
 Sum of multiples of 3 or 5 that are less than 1000: 233168
-Confirmed answer from Project Euler: 233168
+Verified answer from Project Euler: 233168
 ```
 
 
@@ -25,7 +25,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 ###### Solution Output [(View Code)] (PE002.java)
 ```
 Sum of the even valued Fibonacci numbers < 4 million: 4613732
-Confirmed answer from Project Euler: 4613732
+Verified answer from Project Euler: 4613732
 ```
 
 
@@ -38,7 +38,7 @@ What is the largest prime factor of the number 600851475143 ?
 ```
 Prime factors of 13195: [5, 7, 13, 29]
 Prime factors of 600851475143: [71, 839, 1471, 6857]
-Confirmed answer from Project Euler: 6857
+Verified answer from Project Euler: 6857
 ```
 ###### Notes
 Uses the helper class [PrimeSieveInt] (https://github.com/joshua-bone/JavaConsole/blob/master/ProjectEuler/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
