@@ -40,6 +40,8 @@ Prime factors of 13195: [5, 7, 13, 29]
 Prime factors of 600851475143: [71, 839, 1471, 6857]
 Confirmed answer from Project Euler: 6857
 ```
+###### Notes
+Uses the helper class [PrimeSieveInt] (helpers/PrimeSieveInt.java) to generate a prime sieve.
 
 ### Problem 4 - Largest palindrome product
 ###### Problem Statement
