@@ -262,6 +262,9 @@ Paths through a 20x20 grid: 137846528820
 Verified answer from Project Euler: 137846528820
 ```
 
+###### Notes
+This is solved quickly by building a [Pascal's Triangle] of depth 42 (2 x (grid size + 1)).
+
 ### Problem 16 - 
 ###### Problem Statement
 
