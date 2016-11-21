@@ -189,6 +189,8 @@ Find the product abc.
 ```
 Answer: a = 200, b = 375, c = 425
 a^2 + b^2 = 180625, c^2 = 180625
+a x b x c = 31875000
+Verified answer from Project Euler:  31875000
 ```
 ###### Notes
 The problem is greatly simplified by solving for a in terms of b:
@@ -208,3 +210,18 @@ a + b + c = 1000
 ```
 
 Thus, we need only loop through values of b to find where the equation for a yields an integer value. Since a < b < c = 1000, we need only search up to a max of 500 for b.
+
+### Problem 10 - Summation of primes
+
+###### Problem Statement
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+Find the sum of all the primes below two million.
+
+###### Solution Output [(View Code)] (PE010.java)
+```
+Answer: 142913828922
+Verified answer from Project Euler: 142913828922
+```
+###### Notes
+Uses the helper class [PrimeSieveInt] (https://github.com/joshua-bone/JavaConsole/blob/master/ProjectEuler/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
