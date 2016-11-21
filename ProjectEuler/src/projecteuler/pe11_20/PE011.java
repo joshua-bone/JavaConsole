@@ -41,35 +41,41 @@ public class PE011 {
 	public static int maxProduct(int adj) {
 		int max = 0;
 		ArrayList<ArrayList<Integer>> products;
-		for (int i = 0; i < (grid.length - adj) * (grid[0].length - adj); i++) {
-			int row = i / (grid.length - adj);
-			int col = i % (grid.length - adj);
-			
-			//initialize the arraylists
+		for (int i = 0; i < grid.length * grid[0].length; i++) {
+			int row = i / grid.length;
+			int col = i % grid.length;
+
+			// initialize the arraylists
 			products = new ArrayList<>();
-			
-			for (int a = 0; a < 4; a++){  //one each for horizontal, vertical, and both diagonals
-				products.add(new ArrayList<>());
+
+			products.add(new ArrayList<>()); // diagonal upper left to lower
+												// right
+			products.add(new ArrayList<>()); // diagonal lower left to upper
+												// right
+			products.add(new ArrayList<>()); // horizontal
+			products.add(new ArrayList<>()); // vertical
+
+			for (int j = 0; j < adj; j++) {
+				if ((col < grid[0].length - adj) && (row < grid.length - adj)) {
+					// upper left to lower right
+					products.get(0).add(grid[row + j][col + j]);
+					// lower left to upper right
+					products.get(1).add(grid[row + adj - j][col + j]);
+				}
+				// horizontal
+				if (col < grid[0].length - adj)
+					products.get(2).add(grid[row][col + j]);
+				// vertical
+				if (row < grid.length - adj)
+					products.get(3).add(grid[row + j][col]);
 			}
-	
-			
-			for (int j = 0; j < adj; j++){
-				//horizontal
-				products.get(0).add(grid[row][col + j]);
-				//vertical
-				products.get(1).add(grid[row + j][col]);
-				//upper left to lower right
-				products.get(2).add(grid[row + j][col + j]);
-				//lower left to upper right
-				products.get(3).add(grid[row + adj - j][col + j]);
-			}
-			
-			for (ArrayList<Integer> dir : products){
+
+			for (ArrayList<Integer> dir : products) {
 				int total = 1;
-				for (Integer c : dir){
+				for (Integer c : dir) {
 					total *= c;
 				}
-				if (total > max){
+				if (total > max) {
 					System.out.println("Found new max product: " + total);
 					System.out.println("Row " + (row + 1) + ", column " + (col + 1));
 					System.out.println(dir + "\n");
@@ -79,5 +85,5 @@ public class PE011 {
 		}
 		return max;
 	}
-	
+
 }
