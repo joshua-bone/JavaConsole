@@ -212,12 +212,38 @@ Verified answer from Project Euler: 5537376230
 ###### Notes
 The issue here is that we know we don't have to add all the digits of all the numbers to find the first ten digits of the sum, but we can intuitively guess that we need to add at least the first 10 and maybe a few more. But how do we know for sure we've chosen enough digits? I'm sure there's a mathematical solution out there, but here I chose to simply add one digit at a time until no additional precision was gained. For illustrative purposes I started by just adding the first digit of each number.
 
-### Problem 14 - 
+### Problem 14 - Longest Collatz sequence
 ###### Problem Statement
+The following iterative sequence is defined for the set of positive integers:
 
+```
+n → n/2 (n is even)
+n → 3n + 1 (n is odd)
+```
+
+Using the rule above and starting with 13, we generate the following sequence:
+
+```
+13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+```
+
+It can be seen that this sequence (starting at 13 and finishing at 1) contains 10 terms. Although it has not been proved yet (Collatz Problem), it is thought that all starting numbers finish at 1.
+
+Which starting number, under one million, produces the longest chain?
+
+NOTE: Once the chain starts the terms are allowed to go above one million.
 
 ###### Solution Output [(View Code)] (PE014.java)
 ```
+Found new longest chain starting at 999999 and containing 259 terms
+Found new longest chain starting at 999667 and containing 290 terms
+Found new longest chain starting at 999295 and containing 396 terms
+Found new longest chain starting at 997823 and containing 440 terms
+Found new longest chain starting at 970599 and containing 458 terms
+Found new longest chain starting at 939497 and containing 507 terms
+Found new longest chain starting at 837799 and containing 525 terms
+Longest chain found starts at 837799
+Verified answer from Project Euler: 837799
 ```
 
 ### Problem 15 - 
