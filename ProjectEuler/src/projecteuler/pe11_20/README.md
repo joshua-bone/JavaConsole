@@ -14,13 +14,9 @@ What is the greatest product of four adjacent numbers in the same direction (up,
 
 ###### Solution Output [(View Code)] (PE011.java)
 ```
-Found new max product: 34144
+Found new max product: 279496
 Row 1, column 1
-[8, 2, 22, 97]
-
-Found new max product: 1651104
-Row 1, column 1
-[8, 49, 81, 52]
+[8, 49, 31, 23]
 
 Found new max product: 1909600
 Row 1, column 1
