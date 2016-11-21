@@ -265,7 +265,7 @@ Verified answer from Project Euler: 137846528820
 ###### Notes
 This is solved quickly by building a [Pascal's Triangle] of depth 42 (2 x (grid size + 1)).
 
-### Problem 16 - 
+### Problem 16 - Power digit sum
 ###### Problem Statement
 2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
 
@@ -278,13 +278,19 @@ Sum of digits of 2^1000: 1366
 Verified answer from Project Euler: 1366
 ```
 
-### Problem 17 - 
+### Problem 17 - Number letter counts
 ###### Problem Statement
+If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
 
+If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
+
+NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of "and" when writing out numbers is in compliance with British usage.
 
 ###### Solution Output [(View Code)] (PE017.java) 
 ```
-
+Sum of letters in first 5 numbers = 19
+Sum of letters in first 1000 numbers = 21124
+Verified answer from Project Euler: 21124
 ```
 
 ### Problem 18 - 
