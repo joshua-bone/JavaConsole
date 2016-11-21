@@ -248,10 +248,18 @@ Verified answer from Project Euler: 837799
 
 ### Problem 15 - 
 ###### Problem Statement
+Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, 
+there are exactly 6 routes to the bottom right corner.
 
+<img src="http://imgur.com/a/aNmHn">
+
+How many such routes are there through a 20×20 grid?
 
 ###### Solution Output [(View Code)] (PE015.java)
 ```
+Paths through a 2x2 grid: 6
+Paths through a 20x20 grid: 137846528820
+Verified answer from Project Euler: 137846528820
 ```
 
 ### Problem 16 - 
