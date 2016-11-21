@@ -218,10 +218,10 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
 Find the sum of all the primes below two million.
 
-###### Solution Output [(View Code)] (PE010.java)
+###### Solution Output [(View Code)] (PE010.java) Uses the helper class [PrimeSieveInt] (https://github.com/joshua-bone/JavaConsole/blob/master/ProjectEuler/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
 ```
 Answer: 142913828922
 Verified answer from Project Euler: 142913828922
 ```
 ###### Notes
-Uses the helper class [PrimeSieveInt] (https://github.com/joshua-bone/JavaConsole/blob/master/ProjectEuler/src/helpers/PrimeSieveInt.java) to generate a prime sieve.
+
