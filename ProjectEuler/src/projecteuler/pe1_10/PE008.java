@@ -45,7 +45,7 @@ public class PE008 {
 				greatest = product;
 				System.out.print("Highest so far: " + greatest + " (");
 				for (int j = 0; j < digits.length - 1; j++){
-					System.out.print(digits[(j + i + 1) % numDigits] + ",");
+					System.out.print(digits[(j + i + 1) % numDigits] + "" + (char) 0x00b7);
 				}
 				System.out.println(digits[digits.length - 1] + ") (index: " + (i + 1 - numDigits) + ")");
 			}
