@@ -65,7 +65,7 @@ The first ten terms would be:
 
 Let us list the factors of the first seven triangle numbers:
 
-
+```
 1: 1 <br/>
 3: 1,3 <br/>
 6: 1,2,3,6 <br/>
@@ -73,6 +73,7 @@ Let us list the factors of the first seven triangle numbers:
 15: 1,3,5,15 <br/>
 21: 1,3,7,21 <br/>
 28: 1,2,4,7,14,28 <br/>
+```
 
 
 We can see that 28 is the first triangle number to have over five divisors.
