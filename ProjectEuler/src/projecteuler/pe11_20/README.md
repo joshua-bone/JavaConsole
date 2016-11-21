@@ -210,7 +210,7 @@ First ten digits of sum are 5537376230
 Verified answer from Project Euler: 5537376230
 ```
 ###### Notes
-The issue here is that we know we don't have to add all the digits of all the numbers to find the first ten digits of the sum, but we can intuitively guess that we need to add at least the first 10 and maybe a few more. But how do we know for sure we've chosen enough digits? I'm sure there's a mathematical solution out there, but here I chose to simply add one digit at a time until no additional precision is gained. For illustrative purposes I started by just adding the first digit of each number.
+The issue here is that we know we don't have to add all the digits of all the numbers to find the first ten digits of the sum, but we can intuitively guess that we need to add at least the first 10 and maybe a few more. But how do we know for sure we've chosen enough digits? I'm sure there's a mathematical solution out there, but here I chose to simply add one digit at a time until no additional precision was gained. For illustrative purposes I started by just adding the first digit of each number.
 
 ### Problem 14 - 
 ###### Problem Statement
