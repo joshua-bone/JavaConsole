@@ -66,13 +66,13 @@ The first ten terms would be:
 Let us list the factors of the first seven triangle numbers:
 
 ```
-1: 1 <br/>
-3: 1,3 <br/>
-6: 1,2,3,6 <br/>
-10: 1,2,5,10 <br/>
-15: 1,3,5,15 <br/>
-21: 1,3,7,21 <br/>
-28: 1,2,4,7,14,28 <br/>
+1: 1 
+3: 1,3 
+6: 1,2,3,6
+10: 1,2,5,10 
+15: 1,3,5,15
+21: 1,3,7,21 
+28: 1,2,4,7,14,28 
 ```
 
 
