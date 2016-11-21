@@ -5,7 +5,7 @@
 
 In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
 
-<img src="http://i.imgur.com/NX07Uz3.png" alt="Grid" style="height: 100px"/>
+<img src="http://i.imgur.com/NX07Uz3.png" alt="Grid" style="width: 100"/>
 
 The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 
