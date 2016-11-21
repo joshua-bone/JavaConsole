@@ -309,7 +309,11 @@ NOTE: As there are only 16384 routes, it is possible to solve this problem by tr
 
 ###### Solution Output [(View Code)] (PE018.java)
 ```
+Maximum path sum: 1074
+Verified answer from Project Euler: 1074
 ```
+###### Notes
+My solution takes the maximum value from either of a cell's parents (if they exist) and increments the value of each cell by that maximum value. There is no way to use this method to store the actual route through the triangle, but it efficiently finds the solution in O(n) time. 
 
 ### Problem 19 - 
 
