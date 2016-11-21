@@ -173,3 +173,38 @@ Verified answer from Project Euler: 23514624000
 ```
 ###### Notes
 Answer is greater than maximum value of Java `int` type - must use `long` for correct results.
+
+### Problem 9 - Special Pythagorean triplet
+
+###### Problem Statement
+A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+
+a^2 + b^2 = c^2
+For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
+
+There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+Find the product abc.
+
+###### Solution Output [(View Code)] (PE009.java)
+```
+Answer: a = 200, b = 375, c = 425
+a^2 + b^2 = 180625, c^2 = 180625
+```
+###### Notes
+The problem is greatly simplified by solving for a in terms of b:
+
+```
+c^2 = a^2 + b^2
+a + b + c = 1000
+-> c = 1000 - a - b
+-> (1000 - a - b)^2 = a^2 + b^2
+-> 1000^2 - 1000a - 1000b 
+    + a^2 - 1000a + ab
+    + b^2 - 1000b + ab     = a^2 + b^2
+-> 1000^2 - 2000a - 2000b + 2ab = 0
+-> 1000a + 1000b - ab = 500000
+-> a ( 1000 - b ) = 500000 - 1000b
+-> a = (500000 - 1000b) / (1000 - b)
+```
+
+Thus, we need only loop through values of b to find where the equation for a yields an integer value. Since a < b < c = 1000, we need only search up to a max of 500 for b.
