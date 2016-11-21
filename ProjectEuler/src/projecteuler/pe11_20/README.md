@@ -263,7 +263,7 @@ Verified answer from Project Euler: 137846528820
 ```
 
 ###### Notes
-This is solved quickly by building a [Pascal's Triangle] of depth 42 (2 x (grid size + 1)).
+This is solved quickly by building a [Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal's_triangle) of depth 42 (2 x (grid size + 1)).
 
 ### Problem 16 - Power digit sum
 ###### Problem Statement
