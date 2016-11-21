@@ -251,7 +251,7 @@ Verified answer from Project Euler: 837799
 Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, 
 there are exactly 6 routes to the bottom right corner.
 
-<img src="http://imgur.com/a/aNmHn.png">
+<img src="http://i.imgur.com/chrpaeY.png">
 
 How many such routes are there through a 20×20 grid?
 
