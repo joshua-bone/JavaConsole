@@ -267,11 +267,15 @@ This is solved quickly by building a [Pascal's Triangle] of depth 42 (2 x (grid 
 
 ### Problem 16 - 
 ###### Problem Statement
+2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
 
+What is the sum of the digits of the number 2^1000?
 
 ###### Solution Output [(View Code)] (PE016.java)
 ```
-
+Sum of digits of 2^15: 26
+Sum of digits of 2^1000: 1366
+Verified answer from Project Euler: 1366
 ```
 
 ### Problem 17 - 
