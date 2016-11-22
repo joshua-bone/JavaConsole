@@ -32,3 +32,4 @@ Verified answer from Project Euler: 232792560
 ### My Solutions
 * [Problems 1-10](src/projecteuler/pe1_10)
 * [Problems 11-20](src/projecteuler/pe11_20)
+* [Problems 21-30](src/projecteuler/pe21_30)
